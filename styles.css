@@ -13,6 +13,8 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 50px;
+    background-color: #02353e;
+    color: #bc312e;
 }
 
 #nav-title {
@@ -27,4 +29,53 @@ header li {
     font-size: 1.5em;
 }
 
+header a {  
+    text-decoration: none;
+    color: #bc312e;
+}
+
+a:hover {
+    color: white;
+}
+
 /* Hero */
+
+.hero {
+    display: flex;
+    background-color: #02353e;
+    color:#bc312e;
+}
+
+.lhero {
+    flex: 1;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.lhero h1 {
+    font-size: 3em;
+}
+
+button {
+    background-color: #bc312e;
+    color: #02353e;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.rhero {
+    flex: 1;
+    justify-content: center;
+    margin: 50px;
+}
+
+/* Info */
+.info {
+    display: flex;
+    background-color: #a69c93;
+    color: #02353e;
+    justify-content: center;
+}
