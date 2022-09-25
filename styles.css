@@ -1,3 +1,4 @@
+/* Global */
 * {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -6,87 +7,24 @@
 
 }
 
-/* header */
-.menu {
-    background-color: #02353e;
-    color: #bc312e;
+/* Nav */
+header {
     display: flex;
-    justify-content: space-between;
-} 
-
-.links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 28px;
-    /*border: 1px solid white;  debug*/
-    
-}
-
-ul {
-    list-style-type: none;
-}
-
-.item {
-    padding: 10px;
-}
-
-.logo {
-    font-size: 35px;
-    padding: 20px 0;
-    margin-left: 30px;
-}
-
-.header {
-    display: flex;
-    background-color: #02353e;
-    height: 600px;
-    /*border: 1px solid white;*/
-    
-}
-
-.header div {
-    flex: 1;
-    margin: 50px;
-    /*border: 1px solid white;*/
-    justify-content: center;
-    
-}
-
-.head1 {
-    font-size: 27px;
-    color: #bc312e;
-}
-
-.head2 {
-    align-self: center;
     justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
 }
 
-button {
-    display: block;
-    text-align: center;
-    width: 110px;
-    border: none;
-    background: #3882f6;
-    padding: 10px;
-    border-radius: 8px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    justify-content: center;
+#nav-title {
+    margin-right: auto;
+    font-size: 2em;
 }
 
-.info {
-    background-color: #a69c93;
-    display: flex;
-    justify-content: center;
-    color: #02353e;
-    height: 300px;
+header li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+    font-size: 1.5em;
 }
 
-.info h1 {
-    padding: 10px;
-    
-    
-}
+/* Hero */
