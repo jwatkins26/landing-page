@@ -116,3 +116,24 @@ main {
     text-align: center;
 }
 
+/* Quote */
+.quote {
+    display: flex;
+    background-color: #02353e;
+    color: #bc312e;
+    font-size: 2em;
+    padding: 60px;
+}
+
+.quote p {
+    text-align: center;
+}
+
+.person {
+    display: flex;
+    background-color: #02353e;
+    color: #bc312e;
+    font-size: 2em;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
