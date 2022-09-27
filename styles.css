@@ -144,7 +144,7 @@ main {
     background-color: #a69c93;
     
     justify-content: center;
-    border: 1px solid #bc312e;
+     /* border: 1px solid #bc312e; debug */
 }
 
 .signup {
@@ -152,7 +152,7 @@ main {
     background-color: #02353e;
     justify-content: space-between;
     color: #bc312e;
-    border: 1px solid white;
+    /*border: 1px solid white; debug */
     border-radius: 20px;
     align-items: center;
     margin: 100px 50px;
@@ -160,5 +160,15 @@ main {
     
 } 
 
+/* footer */
 
+.footer {
+    background-color: #02353e;
+    color: #bc312e;
+    text-align: center;
+    height: 50px;
+    align-self: center;
+    font-size: 1em;
+    padding: 10px;
+}
 
