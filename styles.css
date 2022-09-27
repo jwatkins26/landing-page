@@ -170,5 +170,8 @@ main {
     align-self: center;
     font-size: 1em;
     padding: 10px;
+    justify-content: center;
 }
-
+ .footer {
+    align-items: center;
+ }
