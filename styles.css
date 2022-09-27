@@ -137,3 +137,28 @@ main {
     justify-content: flex-end;
     padding-right: 60px;
 }
+
+/* action */
+.action {
+    display: flex;
+    background-color: #a69c93;
+    
+    justify-content: center;
+    border: 1px solid #bc312e;
+}
+
+.signup {
+    display: flex;
+    background-color: #02353e;
+    justify-content: space-between;
+    color: #bc312e;
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+    margin: 100px 50px;
+    padding: 50px 50px;
+    
+} 
+
+
+
